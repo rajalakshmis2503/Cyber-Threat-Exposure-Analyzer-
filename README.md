@@ -1,4 +1,4 @@
-# Cyber-Threat-Exposure-Analyzer-
+# Cyber Threat Exposure Analyzer
 
 ## Introduction
 
