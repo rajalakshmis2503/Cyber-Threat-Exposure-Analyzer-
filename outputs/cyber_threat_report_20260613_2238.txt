@@ -1,0 +1,57 @@
+
+════════════════════════════════════════════════════════════════════════
+              CYBER THREAT EXPOSURE REPORT
+════════════════════════════════════════════════════════════════════════
+  Generated     : 2026-06-13 22:38:29 UTC
+  Window        : 2026-05-23 → 2026-06-13  (21 days)
+  Data Sources  : NIST NVD CVE API v2.0 | CISA KEV Catalog
+════════════════════════════════════════════════════════════════════════
+
+KEY FINDINGS
+────────────────────────────────────────────────────────────────────────
+  Total CVEs analysed          : 5,532
+  Critical CVEs                : 452 (8.2%)
+  High CVEs                    : 2,103 (38.0%)
+  Known-Exploited CVEs (KEV)   : 10
+  Immediate-Action tier        : 6
+  Average CVSS                 : 6.93
+  Publication trend            : STABLE (variance below 10%)
+
+HIGHEST-RISK VULNERABILITIES (TOP 5)
+────────────────────────────────────────────────────────────────────────
+  CVE-2026-35273      CVSS:9.8    Risk: 97.0  Tier:Immediate Action   Oracle [KEV]
+  CVE-2026-10520      CVSS:10.0   Risk: 97.0  Tier:Immediate Action   Ivanti [KEV]
+  CVE-2026-50751      CVSS:9.3    Risk: 92.6  Tier:Immediate Action   Checkpoint [KEV]
+  CVE-2026-11645      CVSS:8.8    Risk: 90.5  Tier:Immediate Action   Google [KEV]
+  CVE-2026-48027      CVSS:9.8    Risk: 86.7  Tier:Immediate Action   Nx [KEV]
+
+THREAT TRENDS
+────────────────────────────────────────────────────────────────────────
+  Daily publication trend : STABLE (variance below 10%)
+  Top 5 trending vendors  :
+      1. Google  (739 CVEs)
+      2. Microsoft  (156 CVEs)
+      3. Linux  (132 CVEs)
+      4. Adobe  (107 CVEs)
+      5. Apache  (74 CVEs)
+
+RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────────────────
+  1. PATCH WITHIN 48 HOURS — all KEV-listed CVEs (10 entries).
+     CISA BOD 22-01 mandates accelerated remediation timelines.
+
+  2. PATCH WITHIN 7 DAYS — all "Immediate Action" tier non-KEV CVEs
+     (0 entries).
+
+  3. PATCH WITHIN 30 DAYS — Critical and High RiskScore tiers.
+     Schedule by asset exposure and business criticality.
+
+  4. INVENTORY REVIEW — confirm asset coverage for top-trending vendors:
+     Google, Microsoft, Linux, Adobe, Apache.
+
+  5. RE-RUN this analysis weekly. The KEV catalog and NVD feeds are
+     updated continuously; stale intelligence is unsafe intelligence.
+
+════════════════════════════════════════════════════════════════════════
+                          END OF REPORT
+════════════════════════════════════════════════════════════════════════
